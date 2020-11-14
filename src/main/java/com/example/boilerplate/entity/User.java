@@ -19,6 +19,4 @@ public class User extends BaseEntity {
 
     @Column(nullable = false)
     private String password;
-
-    //TODO: boolean field for logical deletion if necessary
 }
